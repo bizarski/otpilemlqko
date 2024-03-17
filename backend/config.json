@@ -1,0 +1,36 @@
+{
+  "signUpSecret": "epakuraekur",
+  "tokenSecretKey": "peniskur1",
+  "appProtocol": "https",
+  "appAddress": "0.0.0.0",
+  "appPublicAddress": "bizarrecrew.com",
+  "appPort": 3009,
+  "appPublicPort": 443,
+  "dbAddress": "localhost",
+  "dbPort": 27017,
+  "wsProtocol": "https",
+  "wsAddress": "0.0.0.0",
+  "wsPublicAddress": "bizarrecrew.com",
+  "wsPort": 3010,
+  "wsPublicPort": 443,
+  "rendertronPort": 3005,
+  "postsPerPage": 10,
+  "tempDir": "/tmp/",
+  "radioDir": "/mnt/volume_fra1_01/radio/",
+  "uploadsDir": "/mnt/volume_fra1_01/bcuploads/",
+
+  "#userConfigs": {
+    "klemenza": {
+      "appPublicAddress": "nodejs.openedge.xyz",
+      "wsPublicAddress": "nodejs.openedge.xyz",
+      "dbAddress": "admin:12345@ds039155.mlab.com",
+      "dbPort": 39155
+    },
+    "sparx": {
+      "appPublicAddress": "localhost",
+      "wsPublicAddress": "localhost",
+      "appPublicPort": 3000,
+      "wsPublicPort": 3010
+    }
+  }
+}

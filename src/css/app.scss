@@ -1,0 +1,23 @@
+// app global css in SCSS form
+
+@font-face {
+    font-family: handil-pro;
+    src: url(./fonts/HandilPro-Medium.otf);
+}
+
+@font-face {
+    font-family: never-mind-slab;
+    src: url(./fonts/NeverMindSlab/NeverMindSlab-Regular.ttf);
+}
+
+.font-handil-pro {
+    font-family: handil-pro;
+}
+
+.font-never-mind-slab {
+    font-family: never-mind-slab;
+}
+
+body {
+    background-color: white;
+}
