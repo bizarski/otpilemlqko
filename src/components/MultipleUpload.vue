@@ -7,6 +7,7 @@
             filled
             multiple
             class="fit"
+            @update:model-value="handleFileSelection"
         />
     </div>
     <div
@@ -38,7 +39,6 @@ export default defineComponent({
     emits: ['files:saved'],
     data() {
         return {
-            internalValue: this.value,
 			selectedFiles: [],
             filenameMap: {},
             fileExtMap: {},
@@ -70,6 +70,9 @@ export default defineComponent({
             this.selectedFiles.splice(ix, 1);
             delete this.filenameMap[filename];
 		},
+        handleFileSelection() {
+            console.log(this.selectedFiles[0]);
+        }
     },
 })
 </script>

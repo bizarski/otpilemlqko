@@ -1,2 +1,12 @@
 node_modules
 dist
+.quasar/app.js
+.quasar/artifacts.json
+.quasar/client-entry.js
+.quasar/client-prefetch.js
+.quasar/quasar-user-options.js
+.quasar/server-entry.js
+.quasar/ssr-dev-webserver.js
+.quasar/ssr-middlewares.js
+.quasar/ssr-prod-webserver.js
+.quasar/ssr/compiled-dev-webserver.js
